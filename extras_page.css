@@ -1,0 +1,146 @@
+body{
+	font-family: "Open Sans";
+	background-color: green;
+	background-image: url(img/skyscraper.jpg);
+	padding-top: 130px;
+}
+
+/*.carousel-inner img{
+	min-height: 600px;
+ 	min-width: 224px;
+ 	max-height: 600px;
+ 	max-width: 224px;
+ 	background-repeat: no-repeat;
+ 	background-size: contain;
+
+}*/
+.container:not(:first-child){
+	background:repeating-linear-gradient(-45deg, rgb(86, 86, 86), rgb(86, 86, 86) 5px, rgb(216, 177, 4) 5px, rgb(216, 177, 4) 10px);
+	border: solid 24px #d8b102;
+	border-radius: 25px;
+}
+.carousel {
+	width: 600px;
+	height: 224px;
+	max-width: 600px;
+	max-height: 224px;
+	margin: auto;
+	border-radius: 25px;
+	border: solid 25px rgba(0, 0, 0, 0.49);
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.jumbotron{
+	background-color: #b3d9ff;
+	background-image: url(img/gray_buildings.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	max-width:100%;
+	max-height:100%;
+	border bottom: solid 20px rgba(0, 0, 0, 0.49);
+}
+
+.nav.glyphicon {
+	color: black;
+    font-size: 2.3em;
+}
+
+.shadow{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-radius: 25px;
+}
+.navbar{
+	background-color: #565656;
+}
+#main_text{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: purple;
+	background-image: url(img/simcity_city.jpg);
+}
+.title{
+	text-align: center;
+	border: solid 5px;
+	color: #d8b102;
+	background-color: rgba(0, 0, 0, 0.49);
+	border-color: rgba(0, 0, 0, 0.8);
+	border-radius: 25px;
+}
+.myborders{
+	border: solid 4px;
+	border-color: rgba(0, 0, 0, 0.49);
+	border-radius: 25px;
+}
+
+}
+hr { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #d8b102; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #d8b102; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+div.gradient {
+	border-radius: 999em;
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	line-height: 0;
+}
+.navbar-default .navbar-nav>li>a {
+	font-size: 1.4em;
+	border-radius: 50px;
+	background-color: black;
+    color: #d8b102;
+}
+
+.navbar-brand{
+	border-radius: 25px;
+	background-color: black;
+    color: #d8b102;
+}
+#main_text{
+	font-size: 1.4em;
+}
+#main_text>div>h1{
+	text-align: center;
+}
+.navbar-default .navbar-brand {
+    color: #d8b102;
+}
+.image3{
+	background-image: url(img/Low_res/under_construction.png);
+}
+.image2{
+	background-image: url(img/linux.jpg);
+}
+.image1{
+	background-image: url(http://rootgamer.com/wp-content/uploads/2013/03/featured_600_224_simcity_3000.jpg);
+}
+
+.image {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  background-position: center center;
+}
+#fire{
+	color: orange;
+	font-size: 50px;
+}
