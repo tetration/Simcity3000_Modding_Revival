@@ -144,3 +144,7 @@ div.gradient {
 	color: orange;
 	font-size: 50px;
 }
+.warning{
+	color: red;
+	animation: blinker 1s linear infinite;
+}

@@ -2,50 +2,25 @@ body{
 	font-family: "Open Sans";
 	background-color: green;
 	background-image: url(img/skyscraper.jpg);
+	background-position: center;
 	padding-top: 130px;
 }
+table, th, td {
+    border: 4px solid gold;
+   /* margin-left: 300px;*/
 
-/*.carousel-inner img{
-	min-height: 600px;
- 	min-width: 224px;
- 	max-height: 600px;
- 	max-width: 224px;
- 	background-repeat: no-repeat;
- 	background-size: contain;
-
-}*/
+}
+table{	height: 90px;
+	width: 100%;
+}
 .container:not(:first-child){
 	background:repeating-linear-gradient(-45deg, rgb(86, 86, 86), rgb(86, 86, 86) 5px, rgb(216, 177, 4) 5px, rgb(216, 177, 4) 10px);
 	border: solid 24px #d8b102;
 	border-radius: 25px;
 }
-.carousel {
-	width: 600px;
-	height: 224px;
-	max-width: 600px;
-	max-height: 224px;
-	margin: auto;
-	border-radius: 25px;
-	border: solid 25px rgba(0, 0, 0, 0.49);
-}
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-.jumbotron{
-	background-color: #b3d9ff;
-	background-image: url(img/gray_buildings.jpg);
-	background-size: contain;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position:center center;
-	max-width:100%;
-	max-height:100%;
-	border bottom: solid 20px rgba(0, 0, 0, 0.49);
-}
-
 .nav.glyphicon {
 	color: black;
-    font-size: 2.3em;
+    	font-size: 2.3em;
 }
 
 .shadow{
@@ -94,6 +69,13 @@ hr:before {
   border-color: #d8b102; 
   border-width: 0 0 1px 0; 
   border-radius: 20px; 
+}
+
+/* hr before the FAQ*/
+.#faq_hr{
+	border: 4px solid gold;
+	margin-left: 90px;
+	
 }
 
 div.gradient {
@@ -147,4 +129,7 @@ div.gradient {
 .warning{
 	color: red;
 	animation: blinker 1s linear infinite;
+}
+.textz{
+	text-align: left;
 }

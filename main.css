@@ -45,7 +45,7 @@ body{
 
 .nav.glyphicon {
 	color: black;
-    font-size: 2.3em;
+    	font-size: 2.3em;
 }
 
 .shadow{
@@ -127,8 +127,8 @@ div.gradient {
 .image2{
 	background-image: url(img/linux.jpg);
 }
-.image1{
-	background-image: url(http://rootgamer.com/wp-content/uploads/2013/03/featured_600_224_simcity_3000.jpg);
+.image1{	
+	background-image: url(https://cdn.pixabay.com/photo/2016/07/10/06/28/light-1507378_960_720.jpg);
 }
 
 .image {
@@ -140,4 +140,8 @@ div.gradient {
 #fire{
 	color: orange;
 	font-size: 50px;
+}
+.warning{
+	color: red;
+	animation: blinker 1s linear infinite;
 }
